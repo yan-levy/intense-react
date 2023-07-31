@@ -1,0 +1,8 @@
+{
+    "cSpell.words": [
+        "tabler"
+    ],
+    "files.associations": {
+        "*.css": "tailwindcs"
+    }
+}
