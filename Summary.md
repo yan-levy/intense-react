@@ -13,6 +13,12 @@
 - [React] Conditional rendering
 - [React] Lists rendering
 
+- [React] Layout component with grid
+- [React] Customized hooks
+- [React] Consume api https://swapi.dev/
+
+- [React] Hooks: useState, useEffect and use Callback
+
 # Things that I can improve/fix later
 
 - [General] Responsive
