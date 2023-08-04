@@ -61,6 +61,12 @@ function Navbar() {
                 Products
               </Link>
             </div>
+            <div className="flex flex-col">
+              <h1 className="font-black">Layout</h1>
+              <Link href={"pages/layout"} className="hover:opacity-80">
+                Grid
+              </Link>
+            </div>
           </li>
         </ul>
       </nav>
