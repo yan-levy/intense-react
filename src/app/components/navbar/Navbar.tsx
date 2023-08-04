@@ -67,6 +67,12 @@ function Navbar() {
                 Grid
               </Link>
             </div>
+            <div className="flex flex-col">
+              <h1 className="font-black">Customized hooks</h1>
+              <Link href={"pages/starwars"} className="hover:opacity-80">
+                Starwars
+              </Link>
+            </div>
           </li>
         </ul>
       </nav>
