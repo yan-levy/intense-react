@@ -37,12 +37,7 @@ function Navbar() {
                 Indirect
               </Link>
             </div>
-            <div className="flex flex-col">
-              <h1 className="font-black">Hooks</h1>
-              <Link href={"pages/hooks/images"} className="hover:opacity-80">
-                Images
-              </Link>
-            </div>
+
             <div>
               <h1 className="font-black">Conditional</h1>
               <Link
@@ -71,6 +66,15 @@ function Navbar() {
               <h1 className="font-black">Customized hooks</h1>
               <Link href={"pages/starwars"} className="hover:opacity-80">
                 Starwars
+              </Link>
+            </div>
+            <div className="flex flex-col">
+              <h1 className="font-black">Hooks</h1>
+              <Link href={"pages/hooks/images"} className="hover:opacity-80">
+                Images
+              </Link>
+              <Link href={"pages/hooks/counter"} className="hover:opacity-80">
+                Counter
               </Link>
             </div>
           </li>
