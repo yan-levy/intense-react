@@ -19,9 +19,10 @@
 
 - [React] Hooks: useState, useEffect and use Callback
 
+- [React] useContext & Context API
+
 # Things that I can improve/fix later
 
 - [General] Responsive
 - [Products] Fix the order that items is being shown
 - [Products] Add the option to remove items from cart
-- [Navbar] Fix redirect
