@@ -1,6 +1,6 @@
 "use client";
 
-import { IconCheck } from "@tabler/icons-react";
+import { IconEye } from "@tabler/icons-react";
 
 interface CharactersProps {
   characters: any[];
@@ -32,7 +32,7 @@ function Characters(props: CharactersProps) {
             <td className="p-2">{c.mass}</td>
             <td className="p-2">
               <button className="button" onClick={() => props.select(c)}>
-                <IconCheck size={20} />
+                <IconEye size={20} />
               </button>
             </td>
           </tr>
