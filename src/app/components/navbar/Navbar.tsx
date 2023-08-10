@@ -12,26 +12,25 @@ function Navbar() {
                 Home
               </Link>
             </div>
-
             <div className="flex flex-col">
               <h1 className="font-black">Basics</h1>
-              <Link href={"pages/basics/circle"} className="hover:opacity-80">
+              <Link href={"/pages/basics/circle"} className="hover:opacity-80">
                 Circle
               </Link>
-              <Link href={"pages/basics/event"} className="hover:opacity-80">
+              <Link href={"/pages/basics/event"} className="hover:opacity-80">
                 Event
               </Link>
             </div>
             <div className="flex flex-col">
               <h1 className="font-black">Communication</h1>
               <Link
-                href={"pages/communication/direct"}
+                href={"/pages/communication/direct"}
                 className="hover:opacity-80"
               >
                 Direct
               </Link>
               <Link
-                href={"pages/communication/indirect"}
+                href={"/pages/communication/indirect"}
                 className="hover:opacity-80"
               >
                 Indirect
@@ -41,7 +40,7 @@ function Navbar() {
             <div>
               <h1 className="font-black">Conditional</h1>
               <Link
-                href={"pages/conditional/quiz"}
+                href={"/pages/conditional/quiz"}
                 className="hover:opacity-80"
               >
                 Quiz
@@ -49,31 +48,31 @@ function Navbar() {
             </div>
             <div className="flex flex-col">
               <h1 className="font-black">Lists</h1>
-              <Link href={"pages/lists/basic"} className="hover:opacity-80">
+              <Link href={"/pages/lists/basic"} className="hover:opacity-80">
                 Basic
               </Link>
-              <Link href={"pages/lists/products"} className="hover:opacity-80">
+              <Link href={"/pages/lists/products"} className="hover:opacity-80">
                 Products
               </Link>
             </div>
             <div className="flex flex-col">
               <h1 className="font-black">Layout</h1>
-              <Link href={"pages/layout"} className="hover:opacity-80">
+              <Link href={"/pages/layout"} className="hover:opacity-80">
                 Grid
               </Link>
             </div>
             <div className="flex flex-col">
               <h1 className="font-black">Customized hooks</h1>
-              <Link href={"pages/starwars"} className="hover:opacity-80">
+              <Link href={"/pages/starwars"} className="hover:opacity-80">
                 Starwars
               </Link>
             </div>
             <div className="flex flex-col">
               <h1 className="font-black">Hooks</h1>
-              <Link href={"pages/hooks/images"} className="hover:opacity-80">
+              <Link href={"/pages/hooks/images"} className="hover:opacity-80">
                 Images
               </Link>
-              <Link href={"pages/hooks/counter"} className="hover:opacity-80">
+              <Link href={"/pages/hooks/counter"} className="hover:opacity-80">
                 Counter
               </Link>
             </div>
